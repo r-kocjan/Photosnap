@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 .photosnap {
   --white: #fff;
   --black: #000;
   --light-gray: #dfdfdf;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
 }
