@@ -26,6 +26,7 @@ const Container = styled.nav`
   width: 1128px;
   margin: 0 auto;
   margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -61,7 +62,7 @@ const Menu = styled.ul`
   }
   li {
     position: relative;
-
+    padding-bottom: 2px;
     &:hover::after {
       width: 100%;
     }
@@ -73,7 +74,13 @@ const Menu = styled.ul`
     width: 0;
     position: absolute;
     height: 2px;
-    background-color: #000;
+
+    background: linear-gradient(
+      28deg,
+      rgb(255, 197, 147),
+      rgb(188, 113, 152),
+      rgb(90, 119, 255)
+    );
     left: 0;
     bottom: 0;
   }
