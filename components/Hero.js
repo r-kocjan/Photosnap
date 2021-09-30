@@ -49,7 +49,7 @@ const Hero = () => {
         <div className="content white">
           <div className="divider">
             <h1 className="heading-1">Designed for everyone</h1>
-            <p className="paragraph">
+            <p className="paragraph dark">
               Photosnap can help you create stories that resonate with your
               audience. Our tool is designed for photographers of all levels,
               brands, businesses you name it.

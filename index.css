@@ -3,7 +3,7 @@
   --white: #fff;
   --black: #000;
   --light-gray: #dfdfdf;
-  --dark-gray: #b1b1b1;
+  --dark-gray: #e4e4e4;
   --darker-gray: #3f3e3e;
   font-family: "DM Sans", sans-serif;
   font-size: 1.5rem;
@@ -17,6 +17,11 @@
   letter-spacing: 4.17px;
   text-transform: uppercase;
   margin-bottom: 3rem;
+}
+.heading-3 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  line-height: 0.5;
 }
 .paragraph {
   color: var(--dark-gray);
