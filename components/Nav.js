@@ -1,12 +1,16 @@
 import React from "react";
 import styled from "styled-components";
+
 const Nav = () => {
   return (
     <Container>
-      <img src="/photosnap/shared/desktop/logo.svg" alt="logo" />
+      <a href="/projekty/photosnap" className="home-link">
+        <img src="/photosnap/shared/desktop/logo.svg" alt="logo" />
+      </a>
+
       <Menu>
         <li>
-          <a href="#">Stories</a>
+          <a href="/projekty/photosnap/stories">Stories</a>
         </li>
         <li>
           <a href="#">Features</a>
@@ -31,6 +35,9 @@ const Container = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  .home-link {
+    line-height: 0;
+  }
   img {
     cursor: pointer;
   }
