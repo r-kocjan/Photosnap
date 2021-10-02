@@ -25,7 +25,10 @@ const Container = styled.section`
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
   gap: 8rem 4rem;
-
+  @media (max-width: 1200px) {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+  }
   img {
     margin-bottom: 5rem;
     height: 6rem;

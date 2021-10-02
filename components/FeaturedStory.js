@@ -35,6 +35,11 @@ const Container = styled.header`
   background-size: cover;
   background-position: top;
   padding: 10rem 11rem;
+
+  @media (max-width: 1200px) {
+    height: 65vh;
+    padding: 5rem 7rem;
+  }
 `;
 
 const Content = styled.article`

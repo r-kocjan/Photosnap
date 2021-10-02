@@ -50,9 +50,17 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: 1200px) {
+    width: 90%;
+    padding: 6rem 0;
+  }
+
   h1 {
     width: 35%;
     margin: 0;
+    @media (max-width: 1200px) {
+      width: 60%;
+    }
   }
 `;
 

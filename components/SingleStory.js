@@ -12,8 +12,9 @@ const SingleStory = ({ data }) => {
       ),url(${data.images.desktop})`,
       }}
     >
+      <span className="date">{data.date}</span>
       <h3 className="heading-3">{data.header}</h3>
-      <span>by {data.author}</span>
+      <span className="author">by {data.author}</span>
       <button className="button-read">
         Read Story{" "}
         <img
@@ -66,7 +67,11 @@ const Card = styled.article`
   &:hover::after {
     transform: scaleX(1);
   }
-  span {
+  .date {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+  }
+  .author {
     margin-bottom: 2rem;
     border-bottom: 1px solid #ababab;
     padding-bottom: 2rem;

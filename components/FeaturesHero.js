@@ -25,6 +25,9 @@ const Container = styled.section``;
 const Section = styled.section`
   display: flex;
   height: 70vh;
+  @media (max-width: 1200px) {
+    height: 45vh;
+  }
   .content {
     flex-basis: 40%;
     color: var(--white);
@@ -36,9 +39,16 @@ const Section = styled.section`
     justify-content: center;
     align-items: flex-start;
 
+    @media (max-width: 1200px) {
+      flex-basis: 70%;
+    }
+
     .divider {
       padding-left: 10rem;
       position: relative;
+      @media (max-width: 1200px) {
+        padding-left: 6rem;
+      }
     }
     .color {
       &::before {
@@ -63,6 +73,10 @@ const Section = styled.section`
     background-image: url("/photosnap/features/desktop/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    @media (max-width: 1200px) {
+      flex-basis: 30%;
+      background-image: url("/photosnap/features/tablet/hero.jpg");
+    }
   }
 `;
 
