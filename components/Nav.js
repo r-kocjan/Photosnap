@@ -16,7 +16,7 @@ const Nav = () => {
           <a href="/projekty/photosnap/features">Features</a>
         </li>
         <li>
-          <a href="#">Pricing</a>
+          <a href="/projekty/photosnap/pricing">Pricing</a>
         </li>
       </Menu>
       <button className="button-invite" type="button">

@@ -1,16 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-const FeaturesHero = () => {
+const PricingHero = () => {
   return (
     <Container>
       <Section>
         <div className="content">
           <div className="divider color">
-            <h1 className="heading-1">Features</h1>
+            <h1 className="heading-1">Pricing</h1>
             <p className="paragraph">
-              We make sure all of our features are designed to be loved by every
-              aspiring and even professional photographers who wanted to share
-              their stories.
+              Create your stories, Photosnap is a platform for photographers and
+              visual storytellers. It's the simple way to create and share your
+              photos.
             </p>
           </div>
         </div>
@@ -60,10 +60,10 @@ const Section = styled.section`
   }
   .image {
     flex-basis: 60%;
-    background-image: url("/photosnap/features/desktop/hero.jpg");
+    background-image: url("/photosnap/pricing/desktop/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
 `;
 
-export default FeaturesHero;
+export default PricingHero;

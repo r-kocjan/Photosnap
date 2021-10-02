@@ -109,6 +109,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
   }
   .button-invite {
     background-color: transparent;
@@ -128,7 +129,7 @@ const Container = styled.div`
     &::after {
       content: "";
       transition: all 167ms;
-      width: 63%;
+      width: 77%;
       transform: scaleX(0);
       position: absolute;
       height: 2px;
