@@ -13,7 +13,7 @@ const Nav = () => {
           <a href="/projekty/photosnap/stories">Stories</a>
         </li>
         <li>
-          <a href="#">Features</a>
+          <a href="/projekty/photosnap/features">Features</a>
         </li>
         <li>
           <a href="#">Pricing</a>

@@ -43,7 +43,7 @@ const StoriesSection = () => {
         <h3 className="heading-3">Architecturals</h3>
         <span>by Samantha Brooke</span>
         <button className="button-read">
-          Read Story{" "}
+          Read Story
           <img
             src="/photosnap/shared/desktop/arrow-white.svg"
             alt="arrow"

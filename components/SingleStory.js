@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 const SingleStory = ({ data }) => {
-  console.log(data);
   return (
     <Card
       className="card"

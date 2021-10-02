@@ -39,10 +39,10 @@ const Footer = () => {
         </div>
         <ul className="footer-menu">
           <li>
-            <a href="#">Home</a>
+            <a href="/projekty/photosnap">Home</a>
           </li>
           <li>
-            <a href="#">Stories</a>
+            <a href="/projekty/photosnap/stories">Stories</a>
           </li>
           <li>
             <a href="#">Features</a>

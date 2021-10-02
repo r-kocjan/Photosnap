@@ -12,7 +12,7 @@ const AllStories = () => {
   return (
     <Container>
       {data.map((item) => {
-        return <SingleStory data={item} />;
+        return <SingleStory key={item.id} data={item} />;
       })}
     </Container>
   );
