@@ -97,11 +97,19 @@ const Container = styled.section`
   margin: 0 auto;
   text-align: center;
   padding-bottom: 15rem;
+
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
 `;
 
 const CompareBox = styled.div`
   width: 80%;
   margin: 0 auto;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
 
   .grid {
     display: grid;

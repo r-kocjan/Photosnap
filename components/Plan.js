@@ -101,6 +101,11 @@ const Container = styled.section`
   padding: 8rem 0;
   padding-bottom: 15rem;
   text-align: center;
+
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
+
   .change-duration {
     display: flex;
     gap: 2rem;
@@ -151,6 +156,11 @@ const Container = styled.section`
     display: flex;
     align-items: center;
     gap: 3rem;
+
+    @media (max-width: 1200px) {
+      flex-direction: column;
+    }
+
     .card {
       text-align: center;
       background-color: var(--light-gray);
@@ -158,6 +168,15 @@ const Container = styled.section`
       padding-bottom: 5rem;
       transition: all 167ms;
       position: relative;
+
+      @media (max-width: 1200px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+        align-items: center;
+        padding: 4rem;
+      }
+
       &:hover {
         box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.2);
       }
@@ -176,17 +195,33 @@ const Container = styled.section`
         );
         left: 0;
         top: 0;
+        @media (max-width: 1200px) {
+          height: 100%;
+          width: 6px;
+          transform: scale(1, 0);
+        }
       }
+
       p {
         margin-bottom: 3rem;
       }
       h1 {
         margin: 0;
+        @media (max-width: 1200px) {
+          grid-column: 2;
+          grid-row: 1;
+          text-align: right;
+          letter-spacing: 0;
+        }
       }
       span {
         display: block;
         margin-bottom: 3rem;
         color: var(--darker-gray);
+        @media (max-width: 1200px) {
+          text-align: right;
+          margin-top: -4rem;
+        }
       }
       .button-pick {
         width: 100%;
@@ -212,6 +247,9 @@ const Container = styled.section`
       color: var(--white);
       transition: all 250ms;
       transform: scale(1.08);
+      @media (max-width: 1200px) {
+        transform: scale(1.06);
+      }
       .button-pick {
         background-color: var(--white);
         color: var(--black);
@@ -221,6 +259,9 @@ const Container = styled.section`
       }
       &::before {
         transform: scaleX(1);
+        @media (max-width: 1200px) {
+          transform: scale(1, 1);
+        }
       }
     }
   }
