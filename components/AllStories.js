@@ -21,6 +21,10 @@ const AllStories = () => {
 const Container = styled.section`
   display: grid;
   grid-template-columns: repeat(4, 25%);
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(2, 50%);
+  }
 `;
 
 export default AllStories;

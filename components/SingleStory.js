@@ -40,7 +40,9 @@ const Card = styled.article`
   transition: all 167ms;
   position: relative;
   cursor: pointer;
-
+  @media (max-width: 1200px) {
+    height: 55rem;
+  }
   &:hover {
     transform: translateY(-4%);
   }

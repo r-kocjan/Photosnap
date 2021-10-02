@@ -76,7 +76,7 @@ const Container = styled.section`
     position: relative;
     cursor: pointer;
     @media (max-width: 1200px) {
-      height: 45vh;
+      height: 45rem;
     }
     &:hover {
       transform: translateY(-4%);
