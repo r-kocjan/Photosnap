@@ -47,9 +47,18 @@ const Container = styled.section`
   text-align: center;
   gap: 4rem;
 
+  @media (max-width: 1200px) {
+    width: 60%;
+    flex-direction: column;
+    row-gap: 10rem;
+  }
+
   img {
     margin-bottom: 7rem;
     height: 5rem;
+    @media (max-width: 1200px) {
+      margin-bottom: 4rem;
+    }
   }
 `;
 

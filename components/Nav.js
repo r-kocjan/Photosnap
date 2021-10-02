@@ -35,6 +35,11 @@ const Container = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
+
   .home-link {
     line-height: 0;
   }

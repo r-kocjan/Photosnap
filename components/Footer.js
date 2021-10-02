@@ -76,7 +76,10 @@ const Container = styled.div`
   margin: 0 auto;
   color: var(--white);
   display: flex;
-  /* align-items: flex-start; */
+  @media (max-width: 1200px) {
+    width: 90%;
+    position: relative;
+  }
   .flex-column {
     display: flex;
     flex-direction: column;
@@ -85,6 +88,9 @@ const Container = styled.div`
   .social {
     display: flex;
     gap: 1.3rem;
+    @media (max-width: 1200px) {
+      margin-top: 12rem;
+    }
     li:hover img {
       transform: scale(1.3);
     }
@@ -100,6 +106,13 @@ const Container = styled.div`
     flex-direction: column;
     gap: 1rem;
 
+    @media (max-width: 1200px) {
+      flex-direction: row;
+      position: absolute;
+      left: 0;
+      margin: 0;
+      top: 30%;
+    }
     a {
       color: var(--white);
       text-transform: uppercase;

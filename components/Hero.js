@@ -75,6 +75,9 @@ const Container = styled.main``;
 const Section = styled.section`
   display: flex;
   height: 80vh;
+  @media (max-width: 1200px) {
+    height: 60vh;
+  }
   .content {
     flex-basis: 40%;
     color: var(--white);
@@ -85,10 +88,15 @@ const Section = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
+    @media (max-width: 1200px) {
+      flex-basis: 70%;
+    }
     .divider {
       padding-left: 10rem;
       position: relative;
+      @media (max-width: 1200px) {
+        padding-left: 6rem;
+      }
     }
     .color {
       &::before {
@@ -166,12 +174,23 @@ const Section = styled.section`
     background-image: url("/photosnap/home/desktop/create-and-share.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    @media (max-width: 1200px) {
+      flex-basis: 30%;
+      background-image: url("/photosnap/home/tablet/create-and-share.jpg");
+      background-position: center;
+    }
   }
   .image-2 {
     background-image: url("/photosnap/home/desktop/beautiful-stories.jpg");
+    @media (max-width: 1200px) {
+      background-image: url("/photosnap/home/tablet/beautiful-stories.jpg");
+    }
   }
   .image-3 {
     background-image: url("/photosnap/home/desktop/designed-for-everyone.jpg");
+    @media (max-width: 1200px) {
+      background-image: url("/photosnap/home/tablet/designed-for-everyone.jpg");
+    }
   }
 `;
 

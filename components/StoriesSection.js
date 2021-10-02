@@ -58,7 +58,9 @@ const StoriesSection = () => {
 const Container = styled.section`
   display: grid;
   grid-template-columns: repeat(4, 25%);
-
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(2, 50%);
+  }
   .card {
     display: flex;
     flex-direction: column;
@@ -73,6 +75,9 @@ const Container = styled.section`
     transition: all 167ms;
     position: relative;
     cursor: pointer;
+    @media (max-width: 1200px) {
+      height: 45vh;
+    }
     &:hover {
       transform: translateY(-4%);
     }
