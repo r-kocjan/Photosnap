@@ -8,7 +8,7 @@ import PricingHero from "../components/PricingHero";
 const Pricing = () => {
   return (
     <div className="photosnap">
-      <Nav />
+      <Nav active={"pricing"} />
       <PricingHero />
       <Plan />
       <Compare />

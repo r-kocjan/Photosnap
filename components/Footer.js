@@ -1,41 +1,45 @@
 import React from "react";
+
 import styled from "styled-components";
 const Footer = () => {
   return (
     <Full>
       <Container>
         <div className="flex-column">
-          <img src="/photosnap/shared/desktop/logo-white.svg" alt="logo" />
-          <div className="social">
-            <ul>
+          <a href="/projekty/photosnap">
+            <img src="/photosnap/shared/desktop/logo-white.svg" alt="logo" />
+          </a>
+
+          <ul className="social">
+            <li>
               <a href="#">
                 <img src="/photosnap/shared/desktop/facebook.svg" alt="fb" />
               </a>
-            </ul>
-            <ul>
+            </li>
+            <li>
               <a href="#">
                 <img src="/photosnap/shared/desktop/youtube.svg" alt="yt" />
               </a>
-            </ul>
-            <ul>
+            </li>
+            <li>
               <a href="#">
                 <img src="/photosnap/shared/desktop/twitter.svg" alt="tw" />
               </a>
-            </ul>
-            <ul>
+            </li>
+            <li>
               <a href="#">
                 <img src="/photosnap/shared/desktop/pinterest.svg" alt="pin" />
               </a>
-            </ul>
-            <ul>
+            </li>
+            <li>
               <a href="#">
                 <img
                   src="/photosnap/shared/desktop/instagram.svg"
                   alt="insta"
                 />
               </a>
-            </ul>
-          </div>
+            </li>
+          </ul>
         </div>
         <ul className="footer-menu">
           <li>
@@ -45,10 +49,10 @@ const Footer = () => {
             <a href="/projekty/photosnap/stories">Stories</a>
           </li>
           <li>
-            <a href="#">Features</a>
+            <a href="/projekty/photosnap/features">Features</a>
           </li>
           <li>
-            <a href="#">Pricing</a>
+            <a href="/projekty/photosnap/pricing">Pricing</a>
           </li>
         </ul>
         <div className="invite">
@@ -81,9 +85,12 @@ const Container = styled.div`
   .social {
     display: flex;
     gap: 1.3rem;
-
+    li:hover img {
+      transform: scale(1.3);
+    }
     img {
       width: 2.3rem;
+      transition: all 167ms;
     }
   }
   .footer-menu {

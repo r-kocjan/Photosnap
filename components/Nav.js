@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Nav = () => {
+const Nav = ({ active }) => {
   return (
     <Container>
       <a href="/projekty/photosnap" className="home-link">
@@ -9,13 +9,13 @@ const Nav = () => {
       </a>
 
       <Menu>
-        <li>
+        <li className={active === "stories" ? "active" : ""}>
           <a href="/projekty/photosnap/stories">Stories</a>
         </li>
-        <li>
+        <li className={active === "features" ? "active" : ""}>
           <a href="/projekty/photosnap/features">Features</a>
         </li>
-        <li>
+        <li className={active === "pricing" ? "active" : ""}>
           <a href="/projekty/photosnap/pricing">Pricing</a>
         </li>
       </Menu>
@@ -71,6 +71,12 @@ const Menu = styled.ul`
     position: relative;
     padding-bottom: 2px;
     &:hover::after {
+      width: 100%;
+    }
+  }
+
+  .active {
+    &::after {
       width: 100%;
     }
   }

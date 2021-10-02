@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const Stories = () => {
   return (
     <div className="photosnap">
-      <Nav />
+      <Nav active={"stories"} />
       <FeaturedStory />
       <AllStories />
       <Footer />
