@@ -220,7 +220,7 @@ const MobileMenu = styled.ul`
     position: absolute;
     top: 100%;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     visibility: hidden;
 
     &.overlay-active {

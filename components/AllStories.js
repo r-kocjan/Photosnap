@@ -25,6 +25,9 @@ const Container = styled.section`
   @media (max-width: 1200px) {
     grid-template-columns: repeat(2, 50%);
   }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export default AllStories;

@@ -3,6 +3,8 @@ import styled from "styled-components";
 const FeaturedStory = () => {
   return (
     <Container>
+      {/* <img src="/photosnap/stories/mobile/moon-of-appalacia.jpg" alt="" /> */}
+      <div className="header-image"></div>
       <Content>
         <span className="featured">Last Month's Featured Story</span>
         <h1 className="heading-1 white">Hazy Full Moon Of Appalachia</h1>
@@ -35,10 +37,26 @@ const Container = styled.header`
   background-size: cover;
   background-position: top;
   padding: 10rem 11rem;
-
   @media (max-width: 1200px) {
     height: 70vh;
     padding: 2rem 7rem;
+  }
+  @media (max-width: 768px) {
+    background-image: none;
+    width: 100%;
+    padding: 0;
+    height: auto;
+  }
+  .header-image {
+    @media (min-width: 768px) {
+      display: none;
+    }
+    height: 35rem;
+    background-image: url("/photosnap/stories/desktop/moon-of-appalacia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
   }
 `;
 
@@ -50,6 +68,14 @@ const Content = styled.article`
   justify-content: center;
   align-items: flex-start;
   height: 100%;
+
+  @media (max-width: 768px) {
+    background-color: var(--black);
+    width: 100%;
+    justify-content: flex-start;
+    padding: 6rem 3rem;
+  }
+
   .featured {
     margin-bottom: 2rem;
     display: block;
@@ -57,6 +83,9 @@ const Content = styled.article`
   h1 {
     padding-right: 20rem;
     margin-bottom: 2rem;
+    @media (max-width: 768px) {
+      padding: 0;
+    }
   }
   .date {
     margin-bottom: 2rem;
