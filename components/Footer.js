@@ -80,16 +80,28 @@ const Container = styled.div`
     width: 90%;
     position: relative;
   }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .flex-column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @media (max-width: 768px) {
+      align-items: center;
+    }
   }
   .social {
     display: flex;
     gap: 1.3rem;
     @media (max-width: 1200px) {
       margin-top: 12rem;
+    }
+    @media (max-width: 768px) {
+      margin-top: 3rem;
+      margin-bottom: 7rem;
     }
     li:hover img {
       transform: scale(1.3);
@@ -113,6 +125,12 @@ const Container = styled.div`
       margin: 0;
       top: 30%;
     }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      position: initial;
+      margin-bottom: 8rem;
+    }
     a {
       color: var(--white);
       text-transform: uppercase;
@@ -130,6 +148,9 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+    @media (max-width: 768px) {
+      margin: 0;
+    }
   }
   .button-invite {
     background-color: transparent;
@@ -172,6 +193,9 @@ const Container = styled.div`
   }
   .copy {
     color: var(--darker-gray);
+    @media (max-width: 768px) {
+      margin-top: 2rem;
+    }
   }
 `;
 

@@ -78,6 +78,10 @@ const Section = styled.section`
   @media (max-width: 1200px) {
     height: 60vh;
   }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: 80vh;
+  }
   .content {
     flex-basis: 40%;
     color: var(--white);
@@ -88,14 +92,25 @@ const Section = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
     @media (max-width: 1200px) {
       flex-basis: 70%;
+    }
+    @media (max-width: 768px) {
+      order: 2;
+      padding: 2rem 3rem;
+      flex-basis: 60%;
+      position: relative;
     }
     .divider {
       padding-left: 10rem;
       position: relative;
       @media (max-width: 1200px) {
         padding-left: 6rem;
+      }
+      @media (max-width: 768px) {
+        padding: 0;
+        position: initial;
       }
     }
     .color {
@@ -113,6 +128,13 @@ const Section = styled.section`
         );
 
         position: absolute;
+
+        @media (max-width: 768px) {
+          top: 0;
+          left: 3rem;
+          width: 40%;
+          height: 5px;
+        }
       }
     }
 
@@ -179,17 +201,27 @@ const Section = styled.section`
       background-image: url("/photosnap/home/tablet/create-and-share.jpg");
       background-position: center;
     }
+    @media (max-width: 768px) {
+      flex-basis: 40%;
+      background-image: url("/photosnap/home/mobile/create-and-share.jpg");
+    }
   }
   .image-2 {
     background-image: url("/photosnap/home/desktop/beautiful-stories.jpg");
     @media (max-width: 1200px) {
       background-image: url("/photosnap/home/tablet/beautiful-stories.jpg");
     }
+    @media (max-width: 768px) {
+      background-image: url("/photosnap/home/mobile/beautiful-stories.jpg");
+    }
   }
   .image-3 {
     background-image: url("/photosnap/home/desktop/designed-for-everyone.jpg");
     @media (max-width: 1200px) {
       background-image: url("/photosnap/home/tablet/designed-for-everyone.jpg");
+    }
+    @media (max-width: 768px) {
+      background-image: url("/photosnap/home/mobile/designed-for-everyone.jpg");
     }
   }
 `;

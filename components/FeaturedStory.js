@@ -37,8 +37,8 @@ const Container = styled.header`
   padding: 10rem 11rem;
 
   @media (max-width: 1200px) {
-    height: 65vh;
-    padding: 5rem 7rem;
+    height: 70vh;
+    padding: 2rem 7rem;
   }
 `;
 
