@@ -101,6 +101,9 @@ const Container = styled.section`
   @media (max-width: 1200px) {
     width: 90%;
   }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const CompareBox = styled.div`
@@ -118,6 +121,12 @@ const CompareBox = styled.div`
     text-align: left;
     padding: 2.3rem;
     border-bottom: 1px solid var(--dark-gray);
+
+    @media (max-width: 768px) {
+      grid-template-columns: 19% 27% 27% 27%;
+      padding: 2.3rem 2rem;
+    }
+
     span {
       font-weight: bold;
       text-transform: uppercase;

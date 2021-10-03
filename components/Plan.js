@@ -105,6 +105,9 @@ const Container = styled.section`
   @media (max-width: 1200px) {
     width: 90%;
   }
+  @media (max-width: 768px) {
+    width: 85%;
+  }
 
   .change-duration {
     display: flex;
@@ -169,12 +172,15 @@ const Container = styled.section`
       transition: all 167ms;
       position: relative;
 
-      @media (max-width: 1200px) {
+      @media (max-width: 1200px) and (min-width: 800px) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         text-align: left;
         align-items: center;
         padding: 4rem;
+      }
+      @media (max-width: 768px) {
+        padding: 9rem 4rem;
       }
 
       &:hover {
@@ -195,7 +201,7 @@ const Container = styled.section`
         );
         left: 0;
         top: 0;
-        @media (max-width: 1200px) {
+        @media (max-width: 1200px) and (min-width: 800px) {
           height: 100%;
           width: 6px;
           transform: scale(1, 0);
@@ -207,7 +213,7 @@ const Container = styled.section`
       }
       h1 {
         margin: 0;
-        @media (max-width: 1200px) {
+        @media (max-width: 1200px) and (min-width: 800px) {
           grid-column: 2;
           grid-row: 1;
           text-align: right;
@@ -218,7 +224,7 @@ const Container = styled.section`
         display: block;
         margin-bottom: 3rem;
         color: var(--darker-gray);
-        @media (max-width: 1200px) {
+        @media (max-width: 1200px) and (min-width: 800px) {
           text-align: right;
           margin-top: -4rem;
         }
