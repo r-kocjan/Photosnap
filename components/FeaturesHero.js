@@ -28,6 +28,10 @@ const Section = styled.section`
   @media (max-width: 1200px) {
     height: 45vh;
   }
+  @media (max-width: 768px) {
+    height: 70vh;
+    flex-direction: column;
+  }
   .content {
     flex-basis: 40%;
     color: var(--white);
@@ -42,12 +46,22 @@ const Section = styled.section`
     @media (max-width: 1200px) {
       flex-basis: 70%;
     }
+    @media (max-width: 768px) {
+      order: 2;
+      flex-basis: 50%;
+      padding: 3rem;
+      position: relative;
+    }
 
     .divider {
       padding-left: 10rem;
       position: relative;
       @media (max-width: 1200px) {
         padding-left: 6rem;
+      }
+      @media (max-width: 768px) {
+        padding: 0;
+        position: initial;
       }
     }
     .color {
@@ -65,6 +79,12 @@ const Section = styled.section`
         );
 
         position: absolute;
+        @media (max-width: 768px) {
+          height: 6px;
+          width: 30%;
+          top: 0;
+          left: 3rem;
+        }
       }
     }
   }
@@ -76,6 +96,10 @@ const Section = styled.section`
     @media (max-width: 1200px) {
       flex-basis: 30%;
       background-image: url("/photosnap/features/tablet/hero.jpg");
+    }
+    @media (max-width: 768px) {
+      flex-basis: 50%;
+      background-image: url("/photosnap/features/mobile/hero.jpg");
     }
   }
 `;

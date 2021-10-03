@@ -39,6 +39,12 @@ const Full = styled.section`
     );
 
     position: absolute;
+
+    @media (max-width: 768px) {
+      width: 30%;
+      height: 5px;
+      left: 3rem;
+    }
   }
 `;
 
@@ -55,11 +61,22 @@ const Container = styled.div`
     padding: 6rem 0;
   }
 
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6rem 3rem;
+  }
+
   h1 {
     width: 35%;
     margin: 0;
     @media (max-width: 1200px) {
       width: 60%;
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+      /* font-size: 3.6rem; */
     }
   }
 `;

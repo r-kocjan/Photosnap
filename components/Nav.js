@@ -207,7 +207,7 @@ const MobileMenu = styled.ul`
   position: absolute;
   width: 100%;
   left: 0;
-  top: 50%;
+  top: 60%;
 
   gap: 2rem;
   font-weight: bold;

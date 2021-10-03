@@ -29,6 +29,10 @@ const Container = styled.section`
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
   }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    width: 80%;
+  }
   img {
     margin-bottom: 5rem;
     height: 6rem;
