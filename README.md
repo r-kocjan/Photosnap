@@ -16,33 +16,50 @@ This is a solution to the [Photosnap Website challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements throughout the site
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![1Desktop](https://user-images.githubusercontent.com/65490113/135840960-37f48f38-0c32-437a-97b8-ff5a164ce3e9.png)
+![2Desktop](https://user-images.githubusercontent.com/65490113/135840970-c2edb7a4-75ac-4faa-ace0-64ca94aefbf9.png)
+![3Desktop](https://user-images.githubusercontent.com/65490113/135840981-8367e5d1-9a50-4101-9ea8-ca8afa2184f4.png)
+![4DesktopStoriesPage](https://user-images.githubusercontent.com/65490113/135840985-a26a075b-9693-4443-8e61-4b639dcd4459.png)
+![5DesktopFeaturesPage](https://user-images.githubusercontent.com/65490113/135841000-2d4b9436-1f26-4693-9a37-e3a8e79bfbf7.png)
+![6DesktopBeta](https://user-images.githubusercontent.com/65490113/135841014-ad883902-0b81-468c-b244-a92196252727.png)
+![7DesktopPricing](https://user-images.githubusercontent.com/65490113/135841023-b360b055-9e6e-43ec-b055-d1aac2af417f.png)
+![8DesktopPricing2](https://user-images.githubusercontent.com/65490113/135841035-da7dafde-93dc-4a9a-a35d-0205775b116d.png)
+![9DesktopCompare](https://user-images.githubusercontent.com/65490113/135841038-e7df9bd7-6168-4dff-8315-81b9181b5dfd.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+#### Tablet
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![1Tablet](https://user-images.githubusercontent.com/65490113/135841055-1239c047-8dbd-47fd-b0d1-51a968aae24a.png)
+![2Tablet](https://user-images.githubusercontent.com/65490113/135841062-17a7fd07-2d8f-4011-9904-dcd56ac16990.png)
+![3Tablet](https://user-images.githubusercontent.com/65490113/135841070-d6cfc7fe-32eb-4db6-96a8-cfda26a7fd41.png)
+![4TabletFeaturesPage](https://user-images.githubusercontent.com/65490113/135841075-2cdb22c8-2bb2-4008-98a7-6913235520fe.png)
+![5TabletBeta](https://user-images.githubusercontent.com/65490113/135841081-400e6834-aabf-413f-a0d0-03ed4e20a26b.png)
+![6TabletPricing](https://user-images.githubusercontent.com/65490113/135841091-7a8edd64-d3d3-4841-a0ba-f2d9cb33badc.png)
+![7TabletCompare](https://user-images.githubusercontent.com/65490113/135841113-79324f35-9a80-4a0a-af7c-f294ea914400.png)
+
+#### Mobile
+
+![1Mobile](https://user-images.githubusercontent.com/65490113/135841132-dfaa1e34-e65d-4241-85a3-3818fb06ab43.png)
+![2MobileMenu](https://user-images.githubusercontent.com/65490113/135841138-52d565ba-b3ac-444e-bf70-f17365e932ed.png)
+![3MobileStories](https://user-images.githubusercontent.com/65490113/135841145-d5e77cfd-b850-467c-be03-945cd1ec3699.png)
+![5MobileFeaturesPage](https://user-images.githubusercontent.com/65490113/135841160-d08e79e9-595e-466e-9684-49796a98d048.png)
+![6MobileBeta](https://user-images.githubusercontent.com/65490113/135841180-529efc0d-6dea-44ac-b979-4b408de05a66.png)
+![7MobilePricing](https://user-images.githubusercontent.com/65490113/135841192-daae7bd2-d74b-445f-b0de-80b1f132265b.png)
+![8MobileCompare](https://user-images.githubusercontent.com/65490113/135841202-1de74829-5663-4a64-b65b-410605e8f27f.png)
+
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: http://remigiusz.net/projekty/photosnap
 
 ## My process
 
@@ -52,60 +69,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+Remigiusz :)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
