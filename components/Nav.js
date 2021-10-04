@@ -89,7 +89,7 @@ const Container = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     display: none;
   }
   .hamburger {
@@ -168,7 +168,7 @@ const ContainerMobile = styled.nav`
   padding: 2rem;
   background-color: transparent;
   position: relative;
-  @media (min-width: 1200px) {
+  @media (min-width: 600px) {
     display: none;
   }
 
