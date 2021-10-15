@@ -59,7 +59,7 @@ This is a solution to the [Photosnap Website challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: http://remigiusz.net/projekty/photosnap
+- Live Site URL: https://remigiusz.net/projekty/photosnap
 
 ## My process
 
